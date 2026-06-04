@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mask_Buki
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Chara
+    m_Weight: 0
+  - m_Path: Chara.Arm
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/FootUtility1
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/FootUtility2
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Pelvis.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Pelvis.L/Leg.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Pelvis.L/Leg.L/Foot.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Pelvis.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Pelvis.R/Leg.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Pelvis.R/Leg.R/Foot.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/BodyUtility
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Cloak1.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Cloak1.L/Cloak2.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Cloak1.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Cloak1.R/Cloak2.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Neck
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Neck/Head
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Neck/Head/Eye.happy
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Neck/Head/Eye.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Neck/Head/Eye.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Neck/Head/HeadUtility1
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Neck/Head/HeadUtility1/HeadUtility2
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.L/Arm.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.L/Arm.L/Hand.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.L/Arm.L/Hand.L/HandUtility1.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.L/Arm.L/Hand.L/HandUtility2.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.R/Arm.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.R/Arm.R/Hand.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.R/Arm.R/Hand.R/HandUtility1.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Shoulder.R/Arm.R/Hand.R/HandUtility2.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Wing1.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Wing1.L/Wing2.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Wing1.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Spine/Body/Wing1.R/Wing2.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/SpineUtility.B
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/SpineUtility.F
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/SpineUtility.L
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/SpineUtility.R
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Tail1
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Tail1/Tail2
+    m_Weight: 1
+  - m_Path: Chara.Arm/Root/Tail1/Tail2/Tail3
+    m_Weight: 1

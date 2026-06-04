@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: body_Armor_Data
+  m_EditorClassIdentifier: 
+  partID: body_Armor
+  partName: "\u9244\u306E\u3088\u308D\u3044"
+  type: 1
+  modelPrefab: {fileID: 2892499756257173883, guid: 41a2b25f8e4cb1741b93fb5b6f1017fe, type: 3}
+  idleAnimation: {fileID: 0}
+  attackAnimation: {fileID: 0}
+  defenseAnimation: {fileID: 0}
+  eventAnimation: {fileID: 0}
+  hpBonus: 0
+  attackBonus: 0
+  defenseBonus: 100
+  speedBonus: -30
+  critBonus: 0
+  attackNumber: 0
+  levelPoint: 0

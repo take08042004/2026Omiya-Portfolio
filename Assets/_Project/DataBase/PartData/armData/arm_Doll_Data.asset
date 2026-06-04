@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: arm_Doll_Data
+  m_EditorClassIdentifier: 
+  partID: arm_Doll
+  partName: "\u306C\u3044\u3050\u308B\u307F"
+  type: 2
+  modelPrefab: {fileID: 2970963709745728284, guid: 96fd50dea59cd1e49be61de14514b437, type: 3}
+  idleAnimation: {fileID: 0}
+  attackAnimation: {fileID: 8938630979582621176, guid: 4ab7533a1961cda469a22613d1884d9c, type: 3}
+  defenseAnimation: {fileID: 1750876364679925112, guid: 4ab7533a1961cda469a22613d1884d9c, type: 3}
+  eventAnimation: {fileID: 0}
+  hpBonus: 0
+  attackBonus: 40
+  defenseBonus: 0
+  speedBonus: 0
+  critBonus: 10
+  attackNumber: 0
+  levelPoint: 0

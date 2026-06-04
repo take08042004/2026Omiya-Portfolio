@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: body_Robe_Data
+  m_EditorClassIdentifier: 
+  partID: body_Robe
+  partName: "\u9B54\u6CD5\u4F7F\u3044\u306E\u30ED\u30FC\u30D6"
+  type: 1
+  modelPrefab: {fileID: 8137783858051251889, guid: 6bb6aa8a5fb90254f9e3e4731e06c497, type: 3}
+  idleAnimation: {fileID: 0}
+  attackAnimation: {fileID: 0}
+  defenseAnimation: {fileID: 0}
+  eventAnimation: {fileID: 0}
+  hpBonus: 0
+  attackBonus: 0
+  defenseBonus: 10
+  speedBonus: 0
+  critBonus: 30
+  attackNumber: 0
+  levelPoint: 0

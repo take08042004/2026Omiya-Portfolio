@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: leg_Luup_Data
+  m_EditorClassIdentifier: 
+  partID: body_Luup
+  partName: "\u30EB\u30FC\u30D7"
+  type: 3
+  modelPrefab: {fileID: 3606690481306340933, guid: 42d9668435bba6743883c63ecb89f29b, type: 3}
+  idleAnimation: {fileID: -5436363679896512927, guid: 8bd54fc437aafc948a0bf3e55245f7ff, type: 3}
+  attackAnimation: {fileID: 0}
+  defenseAnimation: {fileID: 0}
+  eventAnimation: {fileID: 0}
+  hpBonus: -100
+  attackBonus: 50
+  defenseBonus: 0
+  speedBonus: 70
+  critBonus: 10
+  attackNumber: 0
+  levelPoint: 0

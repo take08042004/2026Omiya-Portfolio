@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: head_Sunglasses_Data
+  m_EditorClassIdentifier: 
+  partID: head_Sunglasses
+  partName: "\u30B5\u30F3\u30B0\u30E9\u30B9"
+  type: 0
+  modelPrefab: {fileID: 4442879118436199604, guid: e8263dcfd63643a46af3c7b83223d40d, type: 3}
+  idleAnimation: {fileID: 0}
+  attackAnimation: {fileID: 0}
+  defenseAnimation: {fileID: 0}
+  eventAnimation: {fileID: 0}
+  hpBonus: 0
+  attackBonus: 0
+  defenseBonus: 40
+  speedBonus: 0
+  critBonus: -20
+  attackNumber: 0
+  levelPoint: 0

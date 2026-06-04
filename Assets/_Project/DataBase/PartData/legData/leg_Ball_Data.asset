@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: leg_Ball_Data
+  m_EditorClassIdentifier: 
+  partID: leg_Ball
+  partName: "\u30D0\u30E9\u30F3\u30B9\u30DC\u30FC\u30EB"
+  type: 3
+  modelPrefab: {fileID: 1052084496380208883, guid: 0ccd7f3a24a287c4cb5ce2c8d3512b34, type: 3}
+  idleAnimation: {fileID: -306523851980445820, guid: 777d7a1b5e551f04a8e9a40f131f1094, type: 3}
+  attackAnimation: {fileID: 0}
+  defenseAnimation: {fileID: 0}
+  eventAnimation: {fileID: 0}
+  hpBonus: 100
+  attackBonus: 0
+  defenseBonus: 0
+  speedBonus: 0
+  critBonus: 20
+  attackNumber: 0
+  levelPoint: 0

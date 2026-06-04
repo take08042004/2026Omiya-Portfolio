@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: body_Wing_Data
+  m_EditorClassIdentifier: 
+  partID: body_Wing
+  partName: "\u5929\u4F7F\u306E\u7FBD"
+  type: 1
+  modelPrefab: {fileID: 6592674146402386278, guid: e63861d023c2e1a49bfdbe2fcf4c5411, type: 3}
+  idleAnimation: {fileID: 6279103282767637932, guid: 468bdc724910f4d49970847daafd6480, type: 3}
+  attackAnimation: {fileID: 0}
+  defenseAnimation: {fileID: 0}
+  eventAnimation: {fileID: 0}
+  hpBonus: 0
+  attackBonus: 0
+  defenseBonus: 0
+  speedBonus: 80
+  critBonus: 0
+  attackNumber: 0
+  levelPoint: 0

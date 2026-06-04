@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: arm_BowandArrow_Data
+  m_EditorClassIdentifier: 
+  partID: arm_BowandArrow
+  partName: "\u5F13\u77E2"
+  type: 2
+  modelPrefab: {fileID: 3629187760764245806, guid: 7867242f84755d54297048215484f68a, type: 3}
+  idleAnimation: {fileID: 0}
+  attackAnimation: {fileID: -5283039351574055365, guid: 59483624cc6352f4d9970d2f37edfed1, type: 3}
+  defenseAnimation: {fileID: -7640983376416106439, guid: 59483624cc6352f4d9970d2f37edfed1, type: 3}
+  eventAnimation: {fileID: 0}
+  hpBonus: 60
+  attackBonus: 40
+  defenseBonus: 0
+  speedBonus: 0
+  critBonus: 0
+  attackNumber: 0
+  levelPoint: 0

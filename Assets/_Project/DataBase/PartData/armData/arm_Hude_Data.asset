@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: arm_Hude_Data
+  m_EditorClassIdentifier: 
+  partID: arm_Hude
+  partName: "\u7B46"
+  type: 2
+  modelPrefab: {fileID: 6821149318485808228, guid: 01eef98d061f851438d05dd38ab0d276, type: 3}
+  idleAnimation: {fileID: 0}
+  attackAnimation: {fileID: 3097383240590455022, guid: 59483624cc6352f4d9970d2f37edfed1, type: 3}
+  defenseAnimation: {fileID: 5783271857372733554, guid: 59483624cc6352f4d9970d2f37edfed1, type: 3}
+  eventAnimation: {fileID: 0}
+  hpBonus: 0
+  attackBonus: 40
+  defenseBonus: 0
+  speedBonus: 20
+  critBonus: 0
+  attackNumber: 0
+  levelPoint: 0

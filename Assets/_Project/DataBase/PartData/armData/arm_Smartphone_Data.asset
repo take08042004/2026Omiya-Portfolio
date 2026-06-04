@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b973efd9681d9684fabdead72227b711, type: 3}
+  m_Name: arm_Smartphone_Data
+  m_EditorClassIdentifier: 
+  partID: arm_Smartphone
+  partName: "\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3"
+  type: 2
+  modelPrefab: {fileID: 1392083687021502605, guid: 258dd9e510afad04893e9a766341db92, type: 3}
+  idleAnimation: {fileID: 0}
+  attackAnimation: {fileID: -6948502741301035632, guid: 29774e9a6242061409e62415d42d41ae, type: 3}
+  defenseAnimation: {fileID: 2425463863986280472, guid: 29774e9a6242061409e62415d42d41ae, type: 3}
+  eventAnimation: {fileID: 0}
+  hpBonus: 0
+  attackBonus: 20
+  defenseBonus: 0
+  speedBonus: 0
+  critBonus: 0
+  attackNumber: 1
+  levelPoint: 0

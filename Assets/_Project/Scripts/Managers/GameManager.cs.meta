@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: f56d65752a537fc4c8e1ee4c673127d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - openingPanel: {fileID: 592820158201939765, guid: 1cab51ea0549c2d42ba84a4f6a8c1fea, type: 3}
+  - menuPanel: {fileID: 2086409597078395739, guid: 8793f19b7fb16a34aa57623f571e8b3d, type: 3}
+  - historyListPanel: {fileID: 7685184611071222858, guid: 1a4dc855e9cfa174d91cf8a0493ea0d1, type: 3}
+  - detailPanel: {fileID: 6476101020398002456, guid: 19a672a30d1b1ff40a0496a7d08d297f, type: 3}
+  - customizationPanel: {fileID: 7008678372853173464, guid: 8c908ad6a633d494292090355d518978, type: 3}
+  - randomRollPanel: {instanceID: 0}
+  - confirmPanel: {instanceID: 0}
+  - finalizePanel: {instanceID: 0}
+  - matchupPanel: {instanceID: 0}
+  - battlePanel: {instanceID: 0}
+  - resultPanel: {instanceID: 0}
+  - digestPanel: {instanceID: 0}
+  - rankingPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
