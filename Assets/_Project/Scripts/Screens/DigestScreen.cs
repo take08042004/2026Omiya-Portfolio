@@ -27,6 +27,11 @@ public class DigestScreen : MonoBehaviour
 
     void OnEnable()
     {
+        digestResults.Clear();
+
+        RefreshUI();
+
+
         StartCoroutine(DigestRoutine());
     }
 
@@ -58,40 +63,32 @@ public class DigestScreen : MonoBehaviour
             playerData.battleLogs = new List<bool>();
         }
 
+        int currentWins = 0;
+        int currentMatches = 0;
+
         // 2〜10戦
         for (int i = 2; i <= 10; i++)
         {
-            CharacterData enemy =
-                SaveSystem.GetRandomEnemy(playerData.playerIndex);
-
-            if (enemy == null)
-            {
-                Debug.LogError($"敵キャラクターが見つかりません。戦闘 {i}。");
-                continue;
-            }
-
-            BattleCalculator.BattleResult result =
-                battleCalculator.SimulateBattle(
-                    playerData,
-                    enemy,
-                    BattleCommand.Random
-                );
-
-            bool win = result.playerWin;
-
+            bool win = Random.Range(0, 2) == 0;
+            
             digestResults.Add(win);
-
             playerData.battleLogs.Add(win);
 
+            currentMatches++;
+            
             if (win)
             {
-                playerData.winCount++;
+                currentWins++;
             }
-
+            
             RefreshUI();
-
+            
             yield return new WaitForSeconds(interval);
         }
+
+        playerData.winCount = currentWins;
+        playerData.totalWins = currentWins;
+        playerData.totalMatches = currentMatches;
 
         // Save更新
         SaveSystem.UpdateCharacter(playerData);

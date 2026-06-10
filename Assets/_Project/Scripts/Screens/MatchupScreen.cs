@@ -153,6 +153,10 @@ public class MatchupScreen : MonoBehaviour
             playerNameText.text = playerData.name;
         }
 
+        int randomLevel = Random.Range(1,11); //1~10のランダムなレベルを生成
+        
+        playerData.level = randomLevel;
+        
         if (playerLevelText != null)
         {
             playerLevelText.text = "Lv." + playerData.level;
@@ -160,18 +164,22 @@ public class MatchupScreen : MonoBehaviour
     }
 
     // 敵UI
-    private void UpdateEnemyUI()
-    {
-        if (enemyNameText != null)
-        {
-            enemyNameText.text = enemyData.name;
-        }
+   private void UpdateEnemyUI()
+   {
+     if (enemyNameText != null)
+     {
+         enemyNameText.text = enemyData.name;
+     }
 
-        if (enemyLevelText != null)
-        {
-            enemyLevelText.text = "Lv." + enemyData.level;
-        }
+    int randomLevel = Random.Range(1, 11); // 1〜10
+
+    enemyData.level = randomLevel;
+    
+    if (enemyLevelText != null)
+    {
+        enemyLevelText.text = "Lv." + enemyData.level;
     }
+}
 
     // アバター表示
     private void UpdateAvatars()

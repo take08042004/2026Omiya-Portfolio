@@ -6,6 +6,7 @@ public class ResultScreen : MonoBehaviour
     public GameObject winBackground;
     public GameObject loseBackground;
 
+
     [Header("UI Graphics (透過文字画像を別オブジェクトにする場合はここにアタッチ、背景に含まれている場合は空欄でOK)")]
     public GameObject winTextGraphic;
     public GameObject loseTextGraphic;
