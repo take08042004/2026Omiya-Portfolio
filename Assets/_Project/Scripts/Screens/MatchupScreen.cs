@@ -153,9 +153,9 @@ public class MatchupScreen : MonoBehaviour
             playerNameText.text = playerData.name;
         }
 
-        int randomLevel = Random.Range(1,11); //1~10のランダムなレベルを生成
-        
+        int randomLevel = Random.Range(1, 11);
         playerData.level = randomLevel;
+        
         
         if (playerLevelText != null)
         {
@@ -171,9 +171,8 @@ public class MatchupScreen : MonoBehaviour
          enemyNameText.text = enemyData.name;
      }
 
-    int randomLevel = Random.Range(1, 11); // 1〜10
-
-    enemyData.level = randomLevel;
+     int randomLevel = Random.Range(1, 11);
+     enemyData.level = randomLevel;
     
     if (enemyLevelText != null)
     {

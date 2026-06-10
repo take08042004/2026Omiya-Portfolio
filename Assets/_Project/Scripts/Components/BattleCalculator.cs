@@ -109,7 +109,7 @@ public class BattleCalculator : MonoBehaviour
         }
         else
         {
-            data.level = 1; // 例外安全用
+            data.level = Random.Range(1, 11); // 例外安全用
         }
 
         int lv = data.level;

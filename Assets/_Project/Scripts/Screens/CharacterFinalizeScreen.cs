@@ -51,6 +51,10 @@ public class CharacterFinalizeScreen : MonoBehaviour
             yield break;
         }
 
+        // Lvを先に決める
+        currentData.level = Random.Range(1, 11);
+
+
         // ステータス計算
         battleCalculator.FinalizeCharacter(currentData);
 

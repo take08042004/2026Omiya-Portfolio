@@ -66,6 +66,19 @@ public class DigestScreen : MonoBehaviour
         int currentWins = 0;
         int currentMatches = 0;
 
+        // 1戦目の結果を加算
+        BattleCalculator.BattleResult firstResult = GameManager.Instance.GetBattleResult();
+        
+        if (firstResult != null)
+        {
+            currentMatches++;
+            
+            if (firstResult.playerWin)
+            {
+                currentWins++;
+            }
+        }
+
         // 2〜10戦
         for (int i = 2; i <= 10; i++)
         {

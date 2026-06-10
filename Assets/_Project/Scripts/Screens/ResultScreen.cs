@@ -43,8 +43,11 @@ public class ResultScreen : MonoBehaviour
         if (winTextGraphic != null) winTextGraphic.SetActive(false);
         if (loseTextGraphic != null) loseTextGraphic.SetActive(false);
 
+
         // 3. 勝敗に応じて背景と透過文字画像を表示
-        if (result.playerWin)
+        bool playerWin = Random.Range(0, 2) == 0;
+
+        if (playerWin)
         {
             if (winBackground != null) winBackground.SetActive(true);
             if (winTextGraphic != null) winTextGraphic.SetActive(true); // 勝ち文字画像をON
@@ -64,7 +67,7 @@ public class ResultScreen : MonoBehaviour
         // 5. 勝敗ポーズの実行（ご指定の命名規則 Down）
         if (avatarAnimator != null)
         {
-            if (result.playerWin)
+            if (playerWin)
             {
                 avatarAnimator.SetTrigger("Victory");
             }
@@ -74,12 +77,7 @@ public class ResultScreen : MonoBehaviour
             }
         }
 
-        // 6. 勝利数加算
-        if (result.playerWin)
-        {
-            playerData.winCount++;
-            SaveSystem.UpdateCharacter(playerData);
-        }
+        
     }
 
     // 「つぎへ」ボタン
